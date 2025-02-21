@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 30%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.navbar {
+    background: #333;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.navbar ul li {
+    color: white;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    color: black;
+    background-color: ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.genero {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}

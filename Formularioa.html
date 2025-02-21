@@ -16,13 +16,40 @@
                 <li>Modua</li>
             </ul>
         </nav>
-        <form id="Formularioa">      
+        <form id="formulario">      
             <label for="izena">Izen osoa:</label>
-            <input type="text" id="izena" name="email" required>
+            <input type="text" id="izena" name="izena" required>
             
             <label for="emaila">Emaila:</label>
             <input type="email" id="emaila" name="emaila" required>
             
             <button type="submit">Onartu</button>
+
+            <label>Generoa:</label>
+            <div class="genero">
+                <input type="radio" id="gizona" name="genero" value="Gizonezkoa">
+                <label for="gizona">Gizonezkoa</label>
+                
+                <input type="radio" id="emakumea" name="genero" value="Emakumezkoa">
+                <label for="emakumea">Emakumezkoa</label>
+                
+                <input type="radio" id="beste" name="genero" value="Beste bat">
+                <label for="beste">Beste bat</label>
+            </div>
+            
+            <label for="estatua">Estatua:</label>
+            <select id="estatua" name="estatua">
+                <option value="">Aukeratu zure herrialdea</option>
+                <option value="eh">Euskal Herria</option>
+                <option value="eb">Erresuma Batuak</option>
+                <option value="fr">Frantzia</option>
+                <option value="au">Australia</option>
+            </select>
+            
+            <button type="submit">Bidali</button>
+        </form>
+    </div>
+
+
 </body>
 </html>
