@@ -60,16 +60,13 @@ button {
     margin-top: 15px;
     padding: 10px;
     color: black;
-    background-color: ;
-    border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
 
 
 
 .genero {
-    display: flex;
+    display: block;
     align-items: center;
     gap: 10px;
     margin-top: 5px;

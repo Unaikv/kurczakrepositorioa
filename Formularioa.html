@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="eu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,16 +16,15 @@
         </ul>
     </nav>
     <div class="container">
-        
-        <form id="formulario">      
+        <form id="formulario">
             <label for="izena">Izen osoa:</label>
-            <input type="text" id="izena" name="izena" required>
+            <input type="text" id="izena" name="izena" placeholder="Sartu zure izen osoa" required>
             
             <label for="emaila">Emaila:</label>
-            <input type="email" id="emaila" name="emaila" required>
+            <input type="email" id="emaila" name="emaila" placeholder="Sartu zure posta elektronikoa" required>
             
-            <button type="submit">Onartu</button>
-
+            <button type="button" class="bigarren-botoia">Onartu</button>
+            
             <label>Generoa:</label>
             <div class="genero">
                 <input type="radio" id="gizona" name="genero" value="Gizonezkoa">
@@ -47,9 +46,11 @@
                 <option value="au">Australia</option>
             </select>
             
-            <button type="submit">Bidali</button>
+            <button type="submit" class="lehenengo-botoia">Bidali</button>
         </form>
     </div>
+</body>
+</html>
 
 
 </body>
