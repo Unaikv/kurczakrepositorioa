@@ -16,6 +16,11 @@ body {
     align-items: center;
 }
 
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
 .navbar ul {
     list-style: none;
     padding: 0;
@@ -85,3 +90,21 @@ h2, h3 {
 .botoia-kolorea:hover, .botoia-letra:hover, .botoia-tamaina:hover, .botoia-letra-mota:hover {
     transform: scale(1.2);
 }
+
+.gorria { background-color: #ff0000; }
+.berdea { background-color: #008000; }
+.urdina { background-color: #0000ff; }
+.zuria { background-color: #ffffff; border: 1px solid black; }
+.beltza { background-color: #000000; }
+
+.letra-arial { font-family: Arial, sans-serif; }
+.letra-times { font-family: 'Times New Roman', serif; }
+.letra-courier { font-family: 'Courier New', monospace; }
+.letra-fantasy { font-family: 'fantasy'; }
+.letra-monospace { font-family: monospace; }
+
+.txikia { font-size: 12px; }
+.txikiagoa { font-size: 14px; }
+.ertaina { font-size: 16px; }
+.handiagoa { font-size: 18px; }
+.handia { font-size: 20px; }
