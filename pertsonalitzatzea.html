@@ -9,15 +9,53 @@
 <body>
     <nav class="navbar">
         <ul>
-            <li><a>Pertsonalizatzailea</a></li>
+            <li><a id="pertsonalizatzailea-aldatu">Pertsonalizatzailea</a></li>
             <li><a>Formularioa</a></li>
             <li><a>Irudiak</a></li>
         </ul>
     </nav>
+    
     <div class="container">
         <h1>Ongi etorri pertsonalizatzailea</h1>
-        <h2>Parrafo honen estiloa alda dezakezu.</h2>
+        <h2 id="testua">Paragrafo honen estiloa alda dezakezu.</h2>
         <h3>Klik egin pertsonalizatzeko</h3>
     </div>
+
+    <div class="pertsonalizatzailea" id="pertsonalizatzailea">
+        <p>atzeko_kolorea</p>
+        <div class="koloreak">
+            <button class="botoia-kolorea gorria"></button>
+            <button class="botoia-kolorea berdea"></button>
+            <button class="botoia-kolorea urdina"></button>
+            <button class="botoia-kolorea zuria"></button>
+            <button class="botoia-kolorea beltza"></button>
+        </div>
+        
+        <p>aldatu_letrak</p>
+        <div class="letra-koloreak">
+            <button class="botoia-letra gorria"></button>
+            <button class="botoia-letra berdea"></button>
+            <button class="botoia-letra urdina"></button>
+            <button class="botoia-letra beltza"></button>
+            <button class="botoia-letra zuria"></button>
+        </div>
+    
+        <div class="tamainak">
+            <button class="botoia-tamaina txikia">XS</button>
+            <button class="botoia-tamaina txikiagoa">S</button>
+            <button class="botoia-tamaina ertaina">M</button>
+            <button class="botoia-tamaina handiagoa">L</button>
+            <button class="botoia-tamaina handia">XL</button>
+        </div>
+    
+        <div class="letra-motak">
+            <button class="botoia-letra-mota letra-arial">A</button>
+            <button class="botoia-letra-mota letra-times">T</button>
+            <button class="botoia-letra-mota letra-courier">C</button>
+            <button class="botoia-letra-mota letra-fantasy">F</button>
+            <button class="botoia-letra-mota letra-monospace">M</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
