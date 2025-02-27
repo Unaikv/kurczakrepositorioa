@@ -40,3 +40,48 @@ h1 {
     font-size: 2.5em;
 }
 
+h2, h3 {
+    font-size: 1.2em;
+}
+
+.pertsonalizatzailea {
+    display: none;
+    position: absolute;
+    top: 35%;
+    left: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 150px;
+}
+
+.pertsonalizatzailea p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.koloreak, .letra-koloreak, .tamainak, .letra-motak {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.botoia-kolorea, .botoia-letra, .botoia-tamaina, .botoia-letra-mota {
+    width: 25px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.botoia-kolorea, .botoia-letra {
+    border-radius: 50%;
+}
+
+.botoia-kolorea:hover, .botoia-letra:hover, .botoia-tamaina:hover, .botoia-letra-mota:hover {
+    transform: scale(1.2);
+}
