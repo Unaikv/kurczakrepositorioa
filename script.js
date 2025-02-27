@@ -1,18 +1,40 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const pertsonalizatzailea = document.getElementById("pertsonalizatzailea");
-    const botoiaPertsonalizazioa = document.getElementById("pertsonalizatzailea-aldatu");
-    const testua = document.getElementById("testua");
+function gorria(){
+    document.getElementById("testua").style.color = "red";
+}
 
+function berdea(){
+    document.getElementById("testua").style.color = "green";
+}
 
-    botoiaPertsonalizazioa.addEventListener("click", () => {
-        pertsonalizatzailea.style.display = (pertsonalizatzailea.style.display === "block") ? "none" : "block";
-    });
+function urdina(){
+    document.getElementById("testua").style.color = "blue";
+}
 
+function txuria(){
+    document.getElementById("testua").style.color = "white";
+}
 
-    document.querySelectorAll(".botoia-kolorea").forEach(botoia => {
-        botoia.addEventListener("click", () => {
-            document.body.className = "";
-            document.body.classList.add(botoia.classList[1]);
-        });
-    });
-});
+function beltza(){
+    document.getElementById("testua").style.color = "black";
+}
+
+function gorria2(){
+    document.body.style.background = "red";
+}
+
+function berdea2(){
+    document.body.style.background = "green";
+}
+
+function urdina2(){
+    document.body.style.background = "blue";
+}
+
+function txuria2(){
+    document.body.style.background = "white";
+}
+
+function beltza2(){
+    document.body.style.background = "black";
+}
+
