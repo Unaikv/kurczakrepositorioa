@@ -79,7 +79,7 @@ h2, h3 {
 }
 
 .botoia-kolorea, .botoia-letra {
-    border-radius: 50%;
+    border: black 2px solid;
 }
 
 .botoia-kolorea:hover, .botoia-letra:hover, .botoia-tamaina:hover, .botoia-letra-mota:hover {
